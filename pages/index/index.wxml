@@ -1,0 +1,5 @@
+<view class="">
+  <!-- 搜索框开始 -->
+  <searchinput></searchinput>
+  <!-- 搜索框结束 -->
+</view>
