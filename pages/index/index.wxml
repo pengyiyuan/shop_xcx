@@ -1,5 +1,15 @@
-<view class="">
+<view class="shop_index">
   <!-- 搜索框开始 -->
   <searchinput></searchinput>
   <!-- 搜索框结束 -->
+
+  <!-- 轮播图开始 -->
+  <view class="class=" index_swipper>
+    <swiper autoplay indicator-dots circular interval="3000">
+      <swiper-item wx:for="{{swiperList}}" wx:key="goodsId">
+        <image src="{{item.imageSrc}}" mode="widthFix"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 轮播图结束 -->
 </view>
