@@ -1,2 +1,48 @@
-<!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<!-- 头部头像和背景开始 -->
+<view class="user-head">
+    <image class="head-bac" src="http://49.234.210.122/shop/0ed363a7a4cb909b1c3c84f792b5d01f.png" mode="widthFix" />
+    <image class="head-img" src="" mode="widthFix" />
+</view>
+<!-- 头部头像和背景结束 -->
+
+<!-- 订单栏开始 -->
+<view class="user-order-bar">
+    <view class="order-head">
+        <view class="order-title">我的订单</view>
+        <view class="order-title">查看全部订单</view>
+        <view class=""> &lt; </view>
+    </view>
+<view class="order-body">
+    <view>
+        <navigator>
+            <image src="" mode="widthFix"/>
+            <view>待付款</view>
+        </navigator>
+    </view>
+     <view>
+        <navigator>
+            <image src="" mode="widthFix"/>
+            <view>待发货</view>
+        </navigator>
+    </view>
+     <view>
+        <navigator>
+            <image src="" mode="widthFix"/>
+            <view>待收货</view>
+        </navigator>
+    </view>
+     <view>
+        <navigator>
+            <image src="" mode="widthFix"/>
+            <view>评价</view>
+        </navigator>
+    </view>
+     <view>
+        <navigator>
+            <image src="" mode="widthFix"/>
+            <view>售后</view>
+        </navigator>
+    </view>
+</view>
+</view>
+<!-- 订单栏结束 -->

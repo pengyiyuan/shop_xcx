@@ -1,1 +1,3 @@
-/* pages/user/user.wxss */
+.user-head .head-bac {
+  width: 100%;
+}

@@ -1,0 +1,75 @@
+.index-swiper{
+    swiper{
+        height: 500rpx;
+        image{
+            width: 100%;
+        }
+    }
+}
+
+.index-iconbar{
+    display: flex;
+    padding: 0 25rpx;
+    navigator{
+        flex: 1;
+        padding: 25rpx;
+        text-align: center;
+        line-height: 10rpx;
+        image{
+            width: 100%;
+        }
+        text{
+            font-size: 25rpx;
+            color: #333333;
+        }
+    }
+}
+
+.index-goods{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 25rpx;
+    navigator{
+        width: 50%;
+        padding: 20rpx 10rpx;
+        image{
+            width: 100%;
+        }
+        .goods-name{
+            padding: 6rpx 13rpx;
+            font-size: 27rpx;
+            font-weight: 600;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+        .goods-desc{
+            padding: 6rpx 13rpx;
+            font-size: 23rpx;
+            font-weight: 400;
+            color: #333333;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+        }
+        .goods-other{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6rpx 13rpx;
+            .goods-price{
+                flex: 4;
+                font-size: 27rpx;
+                font-weight: 600;
+                color: #ea961a;
+            }
+            .goods-cart{
+                flex: 1;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

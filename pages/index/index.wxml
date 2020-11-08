@@ -1,10 +1,10 @@
-<view class="shop_index">
+<view class="shop-index">
   <!-- 搜索框开始 -->
   <searchinput></searchinput>
   <!-- 搜索框结束 -->
 
   <!-- 轮播图开始 -->
-  <view class="class=" index_swipper>
+  <view class="index-swiper">
     <swiper autoplay indicator-dots circular interval="3000">
       <swiper-item wx:for="{{swiperList}}" wx:key="goodsId">
         <image src="{{item.imageSrc}}" mode="widthFix"></image>
@@ -12,4 +12,99 @@
     </swiper>
   </view>
   <!-- 轮播图结束 -->
+
+<!-- 图标栏开始 -->
+  <view class="index-iconbar">
+      <navigator url="" open-type="navigate">
+        <image src="../../icons/seckill.png" mode="widthFix"/>     
+        <text>
+          限时秒杀
+        </text>
+      </navigator>
+      <navigator url="" open-type="navigate">
+        <image src="../../icons/groupbuy.png" mode="widthFix"/> 
+        <text>
+          团购
+        </text>
+      </navigator>
+      <navigator url="" open-type="navigate">
+        <image src="../../icons/coupon.png" mode="widthFix"/>         
+        <text>
+          优惠券
+        </text>
+      </navigator>
+      <navigator url="" open-type="navigate">
+        <image src="../../icons/other.png" mode="widthFix"/>  
+        <text>
+          其他
+        </text>
+      </navigator>
+  </view>
+<!-- 图标栏结束 -->
+
+<!-- 首页商品开始 -->
+<view class="index-goods">
+  <navigator url="">
+    <image src="http://49.234.210.122/shop/3cabb56e82475874aadc4a7ec4a297e.jpg" mode="widthFix"/>
+    <view class="goods-name">
+      太二"一饮而尽杯"（超大杯1200ml）
+    </view>
+    <view class="goods-desc">
+      朋友相见欢，一口气喝干
+    </view>
+    <view class="goods-other">
+      <view class="goods-price">￥59</view>
+      <view class="goods-cart">
+        <image src="../../icons/index-cart.png" mode="widthFix" />
+      </view>
+    </view>
+  </navigator>
+  <navigator url="" >
+    <image src="http://49.234.210.122/shop/2cb11e01bef9bcb5fabe89104f67e7c.jpg" mode="widthFix"/>
+    <view class="goods-name">
+      太二这颗酸菜--门店同款 比鱼好吃的就是它
+    </view>
+    <view class="goods-desc">
+      为保证口感新鲜，收到请马上冷藏
+    </view>
+    <view class="goods-other">
+      <view class="goods-price">￥19</view>
+      <view class="goods-cart">
+        <image src="../../icons/index-cart.png" mode="widthFix" />
+      </view>
+    </view>
+  </navigator>
+  <navigator url="" >
+    <image src="http://49.234.210.122/shop/1b3ddaf5f12b2dc14c4aeec2b9d4fe0.jpg" mode="widthFix"/>
+    <view class="goods-name">
+      太二茶水间--陈皮洛神花（玫瑰茄）茶-16泡/盒装 一盒
+    </view>
+    <view class="goods-desc">
+      门店同款花茶和陈皮，经过烘干、切碎等处理后搭配制成茶包，直接泡
+    </view>
+    <view class="goods-other">
+      <view class="goods-price">￥39</view>
+      <view class="goods-cart">
+        <image src="../../icons/index-cart.png" mode="widthFix" />
+      </view>
+    </view>
+  </navigator>
+  <navigator url="" >
+    <image src="http://49.234.210.122/shop/17cbfcf00d33d33e74bb7a812941fd0.jpg" mode="widthFix"/>
+    <view class="goods-name">
+      太二即食酸菜--小罐包装开盖就能吃
+    </view>
+    <view class="goods-desc">
+      一盒6罐2种口味，随时随地打开就能吃
+    </view>
+    <view class="goods-other">
+      <view class="goods-price">￥59</view>
+      <view class="goods-cart">
+        <image src="../../icons/index-cart.png" mode="widthFix" />
+      </view>
+    </view>
+  </navigator>
+</view>
+<!-- 首页商品结束 -->
+
 </view>
